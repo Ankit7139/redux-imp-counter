@@ -52,24 +52,22 @@ export const Counter = () => {
   };
 
   return (
-    <>
-      <div className="counter">
-        {show && <div className="counter--number">{counter}</div>}
-        <div className="buttons">
-          <button className="incr--btn" onClick={handleIncrease}>
-            Increase
-          </button>
-          <button className="dcr--btn" onClick={handleDecrease}>
-            Decrease
-          </button>
-          <button className="dcr--btn" onClick={handleAdd}>
-            Add 5
-          </button>
-        </div>
+    <div className="counter">
+      {show && <div className="counter--number">{counter}</div>}
+      <div className="buttons">
+        <button className="incr--btn" onClick={handleIncrease}>
+          Increase
+        </button>
+        <button className="dcr--btn" onClick={handleDecrease}>
+          Decrease
+        </button>
+        <button className="dcr--btn" onClick={handleAdd}>
+          Add 5
+        </button>
       </div>
       <button className="toggle--counter" onClick={toggleCounter}>
         Toggle Counter
       </button>
-    </>
+    </div>
   );
 };

@@ -1,4 +1,4 @@
-.App {
+/* .App {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,15 +7,31 @@
   border: 1px solid black;
   margin-left: 550px;
   margin-top: 150px;
-}
+} */
 
-.counter {
-  /* display: flex;
+/* .counter {
+  display: flex;
   justify-content: center;
-  flex-direction: row; */
+  flex-direction: row;
   font-size: 45px;
   font-weight: bold;
   margin: 2px;
+} */
+
+.counter {
+  background-color: black;
+  color: white;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  height: 600px;
+  border: 1px solid black;
+  border-radius: 200px;
+  /* margin-left: 550px;
+  margin-top: 150px; */
 }
 
 button {
@@ -23,14 +39,17 @@ button {
   height: 30px;
   width: 100px;
   color: white;
-  background-color: black;
+  background-color: rgb(110, 203, 28);
   border-radius: 5px;
 }
 
 .counter--number {
+  color: rgb(232, 218, 14);
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
+  font-size: 70px;
 }
 
 .toggle--counter {
