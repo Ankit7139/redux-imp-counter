@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  margin-left: 550px;
+  margin-top: 150px;
+}
+
+.counter {
+  /* display: flex;
+  justify-content: center;
+  flex-direction: row; */
+  font-size: 45px;
+  font-weight: bold;
+  margin: 2px;
+}
+
+button {
+  margin: 10px;
+  height: 30px;
+  width: 100px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.counter--number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle--counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 1rem;
+}
